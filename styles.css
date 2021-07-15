@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -22,7 +23,7 @@
     font-size: 1.3rem;
 }
 .item1:hover{
-    color: rgb(161, 161, 161);
+    color: rgba(107, 207, 199, 0.945);
 }
 .main-1{
     background-image:linear-gradient(rgb(9, 121, 98),rgb(99, 179, 163));
@@ -85,6 +86,7 @@
     padding-top: 2rem;
     font-weight: 600;
     font-size: 2rem;
+    font-family: 'Lora', serif;
 }
 .main-2{
     /* border: 2px solid black; */
@@ -190,4 +192,18 @@
 .faslast{
     padding: 2rem;
     color: #fff;
+    font-size: 1.2rem;
+}
+.fablast{
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+.fablast:hover{
+    color: rgba(107, 207, 199, 0.945);
+    font-size: 1.8rem;
+}
+.lasttag{
+    color: #fff;
+    font-size: 1.2rem;
 }
